@@ -9,6 +9,7 @@ theme_qfc <- function(base_size = 11, base_family = "") {
     theme(
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
+      text = element_text(size = 20),
       axis.ticks.length = unit(half_line / 2.2, "pt"),
       strip.background = element_rect(fill = NA, colour = NA),
       strip.text.x = element_text(colour = "black"),
