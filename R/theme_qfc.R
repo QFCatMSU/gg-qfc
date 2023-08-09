@@ -5,7 +5,7 @@
 
 theme_qfc <- function(base_size = 11, base_family = "") {
   half_line <- base_size/2
-  theme_light(base_size = base_size, base_family = base_family) +
+  ggplot2::theme_light(base_size = base_size, base_family = base_family) +
     theme(
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
