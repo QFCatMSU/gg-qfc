@@ -2,8 +2,9 @@
 #'
 #' A simple theme for ggplot2 that loosely resembles nicely themed plots from
 #' base graphics.
-library(ggplot2)
+
 theme_qfc <- function(base_size = 11, base_family = "") {
+  library(ggplot2)
   half_line <- base_size/2
   theme_light(base_size = base_size, base_family = base_family) +
     theme(
